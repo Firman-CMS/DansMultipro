@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * Copyright © 2021
+ */
+ -->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="admin-2columns-left" xsi:noNamespaceSchemaLocation="../../../../../../../lib/internal/Magento/Framework/View/Layout/etc/page_configuration.xsd">
+     <update handle="editor"/>
+    <body>
+        <referenceContainer name="content">
+            <block class="DansMultipro\LearningObject\Block\Adminhtml\Learningob\Edit" name="learningob_learningob_edit"/>
+        </referenceContainer>
+        <referenceContainer name="left">
+            <block class="DansMultipro\LearningObject\Block\Adminhtml\Learningob\Edit\Tabs" name="learningob_learningob_edit_tabs">
+                <block class="DansMultipro\LearningObject\Block\Adminhtml\Learningob\Edit\Tab\NewInterface" name="learningob_learningob_edit_tab_newinterface"/>
+                <action method="addTab">
+                    <argument name="name" xsi:type="string">newlearningobject_section</argument>
+                    <argument name="block" xsi:type="string">learningob_learningob_edit_tab_newlearningob</argument>
+                </action>
+            </block>
+        </referenceContainer>
+    </body>
+</page>

@@ -1,0 +1,22 @@
+{
+    "name": "dansmultipro/module-learningobject",
+    "description": "create learning object management",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Firman Silalahi",
+            "email": "firman.silahi@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "DansMultipro\\LearningObject\\": ""
+        }
+    }
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="DansMultipro_LearningObject::learningob" title="LOM" module="DansMultipro_LearningObject" sortOrder="10" resource="DansMultipro_LearningObject::learningob"/>
+        <add id="DansMultipro_LearningObject::index" title="Manage Posts" module="DansMultipro_LearningObject" sortOrder="10" action="learningob/lom/index" resource="DansMultipro_LearningObject::index" parent="DansMultipro_LearningObject::learningob"/>
+    </menu>
+</config>
